@@ -243,8 +243,11 @@ h1 strong {
   border: 1px solid rgba(255, 255, 255, 0.09);
   border-radius: 50%;
   color: var(--white);
-  font-size: 10px;
   transition: color 220ms ease, transform 220ms ease;
+}
+
+.card-arrow svg {
+  display: block;
 }
 
 .store-card:hover,
@@ -397,7 +400,6 @@ h1 strong { display: inline; font-size: 1em; letter-spacing: 1px; }
 .tagline, .intro { line-height: 1.6; }
 .store-card { border-radius: 20px; }
 .card-copy small { color: #ccc9c5; font-size: 11px; line-height: 1.65; }
-.card-arrow { font-size: 17px; }
 .phone-link { justify-self: center; color: #d9d5d2; font-size: 12px; padding: 8px; text-decoration: underline; text-underline-offset: 4px; }
 .phone-link:focus-visible { outline: 2px solid var(--gold-light); outline-offset: 4px; }
 .info-section { margin-top: 25px; padding: 24px 20px; background: #111; border: 1px solid #303030; border-radius: 20px; }
